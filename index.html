@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project Friends</title>
+  </head>
+  <body>
+    <div class="content-video">
+      <video src="./assets/video.mp4" autoplay muted loop></video>
+      <div class="mascara-video"></div>
+    </div>
+
+    <div class="container">
+      <img src="./assets/logo.png" alt="Logo Friends" />
+      <h1>Friends: The Reunion</h1>
+      <p>
+        Assista a reunião de Rachel, Ross, Joey, Monica, Chandler, Phoebe e
+        outros personagens, através de entrevistas, relembrando episódios
+        clássicos e contando histórias até então desconhecidas da série que
+        marcou diversas gerações.
+      </p>
+
+      <button class="btn-modal" onclick="openModal()">
+        Assista ao Trailer
+      </button>
+
+    </div>
+
+    <img
+      src="./assets/friends-reunion.png"
+      alt="Logo friends"
+      class="logo-friends-reunion"
+    />
+
+    <div class="modal" id="trailerModal">
+      <div class="modal-content">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <iframe
+          id="iframe"
+          width="900"
+          height="600"
+          src="https://www.youtube.com/embed/wtZrQzzlqi4"
+          title="Friends: The Reunion | Trailer Oficial"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
