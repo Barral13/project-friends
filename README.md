@@ -16,7 +16,7 @@ Este projeto consiste em uma página web que promove o especial "Friends: The Re
 # Como Usar
 - Clone este repositório em seu ambiente de desenvolvimento:
 
-- git clone https://github.com/seu-usuario/nome-do-repositorio.git
+- git clone https://github.com/Barral13/project-friends
 Abra o arquivo index.html em seu navegador web para visualizar a página.
 
 - Explore as funcionalidades, incluindo o botão para assistir ao trailer e o modal interativo.
